@@ -173,19 +173,19 @@ int main()
 		glBindVertexArray(VAO); // Conectando ao buffer de geometria
 
 		// Corpo da casa
-		glUniform4f(colorLoc, 0.9f, 0.9f, 0.9f, 1.0f);
+		glUniform4f(colorLoc, 0.72f, 0.45f, 0.20f, 1.0f);
 		glDrawArrays(GL_TRIANGLES, 0, 6);
 
 		// Telhado
-		glUniform4f(colorLoc, 0.9f, 0.05f, 0.05f, 1.0f);
+		glUniform4f(colorLoc, 0.30f, 0.12f, 0.04f, 1.0f);
 		glDrawArrays(GL_TRIANGLES, 6, 3);
 
 		// Porta
-		glUniform4f(colorLoc, 0.45f, 0.2f, 0.08f, 1.0f);
+		glUniform4f(colorLoc, 0.95f, 0.95f, 0.95f, 1.0f);
 		glDrawArrays(GL_TRIANGLES, 9, 6);
 
 		// Janela
-		glUniform4f(colorLoc, 1.0f, 0.85f, 0.1f, 1.0f);
+		glUniform4f(colorLoc, 0.15f, 0.55f, 0.95f, 1.0f);
 		glDrawArrays(GL_TRIANGLES, 15, 6);
 
 		// Divisoes da janela
